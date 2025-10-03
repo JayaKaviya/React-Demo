@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import MyComp from './MyComp'
+import NewComp from './NewComp'
+import MemoVsCall  from './MemovsCall'
+import Callback from './Callback'
 
 const content = [
   [
@@ -74,7 +78,12 @@ export default function App() {
           </ul>
         </div>
       </div>
-    </div>
+          <MyComp/> 
+          <NewComp/>
+          <MemoVsCall/>
+          <Callback />
+    </div> 
+
   );
 }
 
